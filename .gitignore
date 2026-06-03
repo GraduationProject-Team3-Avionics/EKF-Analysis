@@ -1,0 +1,30 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MATLAB autosave, temporary, and generated files
+*.asv
+*.m~
+*.mex*
+*.slxc
+slprj/
+codegen/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Analysis outputs
+results/
+output/
+outputs/
+figures/
+plots/
