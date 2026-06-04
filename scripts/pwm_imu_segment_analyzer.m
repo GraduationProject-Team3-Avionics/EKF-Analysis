@@ -24,7 +24,7 @@ clear; clc; close all;
 % 0. User Settings
 % =========================
 
-csv_file = "data\TEST_10.CSV";
+csv_file = "data\TEST_12.CSV";
 
 % 분석 시작/끝 시간 [s]
 analysis_start_sec = 0.0;
@@ -283,8 +283,8 @@ fprintf("PWM Segment Summary\n");
 fprintf("=================================================\n");
 disp(summary);
 
-writetable(summary, "strix_pwm_segment_summary.csv");
-fprintf("Saved summary CSV: strix_pwm_segment_summary.csv\n");
+% writetable(summary, "strix_pwm_segment_summary.csv");
+% fprintf("Saved summary CSV: strix_pwm_segment_summary.csv\n");
 
 %% =========================
 % 6. Select Segments To Plot
