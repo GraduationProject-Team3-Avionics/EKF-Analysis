@@ -22,7 +22,8 @@ clear; clc; close all;
 % =============================================================
 
 % CSV 경로
-csv_file = "data\TEST_10.CSV";
+% csv_file = "260610\fc_damp_03.CSV";
+csv_file = "data\vel_test_03.CSV";
 
 % 평가 구간 [s]
 eval_start_sec = 0.0;

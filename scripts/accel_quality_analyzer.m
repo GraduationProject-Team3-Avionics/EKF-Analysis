@@ -15,7 +15,8 @@ clear; clc; close all;
 % 0. User Settings
 % =========================
 
-csv_file = "data\TEST_12.CSV";
+csv_file = "260610\fc_damp_04.CSV";
+% csv_file = "data\vel_test_03.CSV";
 
 eval_start_sec = 0.0;
 eval_end_sec   = inf;
