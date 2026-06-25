@@ -6,7 +6,7 @@ clear; clc; close all;
 %  - D축은 barometer로 별도 처리 예정이므로 분석 제외
 % ============================================================
 
-filename = "data/TEST_10.CSV";
+filename = "data/alt_02.CSV";
 
 use_only_gnss_update = true;
 
